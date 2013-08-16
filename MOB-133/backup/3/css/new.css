@@ -1,0 +1,193 @@
+.statistic_page_block{
+	text-align:left;
+}
+
+.statistic_page_block h1, .statistic_page_block h2{
+	font-family: Trebuchet MS, Tahoma, Arial;
+	font-size: 30px;
+	font-weight: normal;
+	color: #333333;
+	border-bottom:none;
+	padding:0;
+	text-align:center;
+	background: url(../images/dashed_line.png) center 16px repeat-x;
+}
+
+.statistic_page_block h2{
+	font-size: 20px;
+	background: url(../images/dashed_line.png) center repeat-x;
+	margin-bottom: 20px;
+}
+
+.statistic_page_block h1 span, .statistic_page_block h2 span{
+	background: #F5F6F5;
+	padding: 0 15px;
+}
+
+.statistic_page_block h1{
+	margin-bottom:31px;
+}
+
+.horizontal_sub_menu{
+	margin-bottom:19px;
+}
+
+.horizontal_sub_menu table, .results_block table{
+	width:100%;
+	border-collapse: collapse;
+}
+
+.horizontal_sub_menu table td{
+	border:1px solid #aeaeae;
+}
+
+.horizontal_sub_menu table.cell4 td{
+	width:25%;
+}
+
+.horizontal_sub_menu table td span, .horizontal_sub_menu table td a{
+	display:block;
+	text-decoration:none;
+	text-align:center;
+	height: 28px;
+	line-height: 28px;
+	font-size: 12px;
+}
+
+.horizontal_sub_menu table td span{
+	color: #FFFFFF;
+	font-weight:bold;
+	background-color: #585858;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#585858), to(#787878));
+	background-image: -webkit-linear-gradient(top, #585858, #787878);
+	background-image:    -moz-linear-gradient(top, #585858, #787878);
+	background-image:      -o-linear-gradient(top, #585858, #787878);
+	background-image:         linear-gradient(to bottom, #585858, #787878);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#585858', endColorstr='#787878',GradientType=0);
+}
+
+.horizontal_sub_menu table td a{
+	background-color: #f9f9f9;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#e4e4e4));
+	background-image: -webkit-linear-gradient(top, #f9f9f9, #e4e4e4);
+	background-image:    -moz-linear-gradient(top, #f9f9f9, #e4e4e4);
+	background-image:      -o-linear-gradient(top, #f9f9f9, #e4e4e4);
+	background-image:         linear-gradient(to bottom, #f9f9f9, #e4e4e4);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#e4e4e4',GradientType=0);
+}
+
+.sorter_tools{
+	margin-bottom:21px;
+	zoom:1;
+}
+
+.sorter_tools .select_time span{
+	cursor:pointer;
+	border-bottom:1px dashed #868686;
+	color: #868686;
+	margin-right: 25px;
+}
+
+.sorter_tools .select_time span.active{
+	cursor:default;
+	border:none;
+	color:#333333;
+}
+
+.select_date{
+	float:right;
+	margin-top: -3px;
+}
+
+.clear{
+	clear:both;
+}
+
+input.date_input{
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	-ms-border-radius: 0;
+	-o-border-radius: 0;
+	-khtml-border-radius: 0;
+	font: 11px Tahoma;
+	color:#000;
+	height:21px;
+	line-height:21px;
+	width:63px;
+	padding:0;
+	border: 1px solid #abadb3;
+	padding: 0 16px 0 0;
+	background: url(../images/calendar.png) 64px center no-repeat;
+}
+
+.select_date i{
+	margin:0 6px 0 10px;
+	font-style:normal;
+}
+
+.results_block{
+	padding-bottom: 23px;
+}
+
+.results_block table th{
+	font-weight:bold;
+	color:#5E5E5E;
+	font-size:12px;
+}
+
+.results_block table td{
+	color: #5E5E5E;
+	font-size:12px;
+	height:37px;
+	border-bottom: 1px solid #e4e4e4;
+}
+
+.results_block table tr:last-child td{
+	border-bottom:none;
+}
+
+.results_block a{
+	color: #0066FF;
+}
+
+.results_block a:hover{
+	color: #E35E1B;
+}
+
+.right_text{
+	text-align:right;
+}
+
+.results_block .info_ico{
+	margin-bottom:-3px;
+}
+
+.results_block a.show_ads{
+	text-decoration:none;
+	color: #868686;
+	border-bottom:1px dashed #868686;
+}
+
+.results_block a.show_ads:hover{
+	color: #E35E1B;
+	border-bottom:1px dashed #E35E1B;
+}
+
+.results_block a.delete_item{
+	text-decoration:none;
+}
+
+.results_block a.delete_item span{
+	text-decoration:underline;
+	color:#CC0000;
+}
+
+.results_block a.delete_item:hover span{
+	color: #E35E1B;
+}
+
+.results_block a.delete_item span, .results_block a.delete_item img{
+	vertical-align:middle;
+}
+

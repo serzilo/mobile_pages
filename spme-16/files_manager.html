@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Файловый менеджер</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<script src="js/jquery-1.8.3.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="navbar navbar-inverse navbar-static-top">
+			<div class="navbar-inner">
+				<div class="container">
+					<div class="nav-collapse collapse">
+						<ul class="nav">
+							<li><a href="#" class="lead">Торренты</a></li>
+							<li>
+								<a href="#" class="lead">Трекеры</a>
+								<a href="#" class="sub">Категории</a>
+							</li>
+							<li>
+								<a href="#" class="lead">Ключевые фразы</a>
+								<a href="#" class="sub">Категории</a>
+							</li>
+							<li><b class="lead">Файловый менеджер</b></li>
+							<li><a href="#" class="lead">Статистика</a></li>
+						</ul>
+					</div><!-- .nav-collapse -->
+				</div><!-- .container -->
+			</div><!-- .navbar-inner -->
+		</div><!-- .navbar -->
+	
+		<div class="container">
+			<h1>Файловый менеджер</h1>
+			
+			<div class="alert alert-error">
+				Вы уверены, что хотите удалить 5 файлов? <a href="#" class="btn btn-success">Да</a>  <a href="#" class="btn">Отмена</a>
+			</div><!-- .alert -->
+			
+			<div class="overfl_hid form-actions">
+				<button type="submit" class="btn btn-danger">Удалить</button>
+				<button type="button" class="btn">Переименовать</button>
+				
+				<div class="input-append pull-right">
+					<input class="span2" id="appendedInputButton" type="text">
+					<button class="btn" type="button">OK</button>
+				</div><!-- .pull-right -->
+				
+			</div><!-- .form-actions -->
+			
+			
+			<table class="table table-hover table-striped table_bottom_border">
+				<tr>
+					<td>
+						<input type="checkbox">
+					</td>
+					<td class="table_preview_block">
+						<img src="tmp/1.jpg" alt="" />
+					</td>
+					<td class="lead">
+						<div class="table_title_block overfl_hid">
+							<a href="#">Simpsons.avi</a>
+						</div>
+					</td>
+					<td style="width: 35%;">
+						<a href="#">Комедия</a>, 
+						<a href="#">видео</a>, 
+						<a href="#">симпсоны</a>, 
+						<a href="#">мультики</a>, 
+						<a href="#">юмор</a>, 
+						<a href="#">треш</a>
+					</td>
+					<td>
+						<a href="#" class="text-success">Импортировать</a>
+					</td>
+					<td>
+						
+					</td>
+					<td>
+						<a href="#"><img src="img/cross_r.gif" alt="Удалить" title="Удалить" /></a>
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						<input type="checkbox">
+					</td>
+					<td class="table_preview_block">
+						<img src="tmp/1.jpg" alt="" />
+					</td>
+					<td class="lead">
+						<div class="table_title_block overfl_hid">
+							<a href="#">Пример_очень_длинного_заголовкааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааа.jpg</a>
+						</div>
+					</td>
+					<td style="width: 35%;">
+						<a href="#">Комедия</a>
+						
+					</td>
+					<td>
+						<a href="#" class="text-success">Импортировать</a>
+					</td>
+					<td>
+						
+					</td>
+					<td>
+						<a href="#"><img src="img/cross_r.gif" alt="Удалить" title="Удалить" /></a>
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						<input type="checkbox">
+					</td>
+					<td class="table_preview_block">
+						<img src="tmp/1.jpg" alt="" />
+					</td>
+					<td class="lead">
+						<div class="table_title_block overfl_hid">
+							<a href="#">Simpsons.avi</a>
+						</div>
+					</td>
+					<td style="width: 35%;">
+						<a href="#">Комедия</a>, 
+						<a href="#">видео</a>, 
+						<a href="#">симпсоны</a>, 
+						<a href="#">мультики</a>, 
+						<a href="#">юмор</a>, 
+						<a href="#">треш</a>, 
+						<a href="#">Комедия</a>, 
+						<a href="#">видео</a>, 
+						<a href="#">симпсоны</a>, 
+						<a href="#">мультики</a>, 
+						<a href="#">юмор</a>, 
+						<a href="#">треш</a>, 
+						<a href="#">Комедия</a>, 
+						<a href="#">видео</a>, 
+						<a href="#">симпсоны</a>, 
+						<a href="#">мультики</a>, 
+						<a href="#">юмор</a>, 
+						<a href="#">треш</a>
+					</td>
+					<td>
+						<a href="#" class="text-success">Импортировать</a>
+					</td>
+					<td>
+						
+					</td>
+					<td>
+						<a href="#"><img src="img/cross_r.gif" alt="Удалить" title="Удалить" /></a>
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						<input type="checkbox">
+					</td>
+					<td class="table_preview_block">
+						<img src="tmp/1.jpg" alt="" />
+					</td>
+					<td class="lead">
+						<div class="table_title_block overfl_hid">
+							<a href="#">Simpsons.avi</a>
+						</div>
+					</td>
+					<td style="width: 35%;">
+						<a href="#">Комедия</a>, 
+						<a href="#">видео</a>, 
+						<a href="#">симпсоны</a>, 
+						<a href="#">мультики</a>, 
+						<a href="#">юмор</a>, 
+						<a href="#">треш</a>
+					</td>
+					<td>
+						<a href="#" class="text-success">Импортировать</a>
+					</td>
+					<td>
+						
+					</td>
+					<td>
+						<a href="#"><img src="img/cross_r.gif" alt="Удалить" title="Удалить" /></a>
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						<input type="checkbox">
+					</td>
+					<td class="table_preview_block">
+						<img src="tmp/1.jpg" alt="" />
+					</td>
+					<td class="lead">
+						<div class="table_title_block overfl_hid">
+							<a href="#">Simpsons.avi</a>
+						</div>
+					</td>
+					<td style="width: 35%;">
+						<a href="#">Комедия</a>, 
+						<a href="#">видео</a>, 
+						<a href="#">симпсоны</a>, 
+						<a href="#">мультики</a>, 
+						<a href="#">юмор</a>, 
+						<a href="#">треш</a>
+					</td>
+					<td>
+						<span class="muted">Залито</span>
+					</td>
+					<td>
+						
+					</td>
+					<td>
+						<a href="#"><img src="img/cross_r.gif" alt="Удалить" title="Удалить" /></a>
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						<input type="checkbox">
+					</td>
+					<td class="table_preview_block">
+						<img src="img/folder.png" alt="" />
+					</td>
+					<td class="lead">
+						<div class="table_title_block overfl_hid">
+							<a href="#">/clips/</a>
+						</div>
+					</td>
+					<td style="width: 35%;">
+						
+					</td>
+					<td>
+						
+					</td>
+					<td>
+						
+					</td>
+					<td>
+						<a href="#"><img src="img/cross_r.gif" alt="Удалить" title="Удалить" /></a>
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						<input type="checkbox">
+					</td>
+					<td class="table_preview_block">
+						<img src="img/archive.png" alt="" />
+					</td>
+					<td class="lead">
+						<div class="table_title_block overfl_hid">
+							<a href="#">Simpsons.rar</a>
+						</div>
+					</td>
+					<td style="width: 35%;">
+						<a href="#">Комедия</a>, 
+						<a href="#">видео</a>, 
+						<a href="#">симпсоны</a>, 
+						<a href="#">мультики</a>, 
+						<a href="#">юмор</a>, 
+						<a href="#">треш</a>
+					</td>
+					<td>
+						<a href="#" class="text-success">Импортировать</a>
+					</td>
+					<td>
+						<a href="#"><img src="img/extract.png" alt="Распаковать архив" title="Распаковать архив"/></a>
+					</td>
+					<td>
+						<a href="#"><img src="img/cross_r.gif" alt="Удалить" title="Удалить" /></a>
+					</td>
+				</tr>
+				
+			</table>
+			
+			
+			<div class="pagination overfl_hid">
+				<ul>
+					<li class="disabled"><span>Назад</span></li>
+					<li class="active"><span>1</span></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#">5</a></li>
+					<li class="disabled"><span>...</span></li>
+					<li><a href="#">253</a></li>
+					<li><a href="#">Вперед</a></li>
+				</ul>
+				
+				<div class="input-append pull-right">
+					<input class="input-mini" type="text">
+					<button type="submit" class="btn">GO</button>
+				</div>
+				
+				
+			</div><!-- .pagination -->
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		</div><!-- .container -->
+		
+		
+		
+		
+	</body>
+</html>
