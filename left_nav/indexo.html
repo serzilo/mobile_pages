@@ -1,0 +1,1661 @@
+
+
+	
+		<?xml version="1.0" encoding="utf-8"?>
+		<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+	
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	
+	
+	
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+
+
+	<title>Лента/serzilo</title>
+	<meta name="format-detection" content="telephone=no"/>
+	
+	
+		<link rel="stylesheet" type="text/css" href="css/touch_cache_r1886.css" />
+	
+		<link rel="stylesheet" type="text/css" href="css/2483756806_r1886.css" />
+		
+		
+		<style>
+			body, html{
+				width:auto;
+				max-width:100%;
+				position:relative;
+			}
+			
+			.content_wrap{
+				background:#ebebeb;
+			}
+			
+			#navi table a {
+				padding: 9px 0 10px 0;
+			}
+			
+			.icon_block_wrap{
+				margin-right:3px;
+			}
+			
+			#left_nav{
+				width:272px;
+				background: #32394a;
+				position:absolute;
+				top:0;
+				left:-272px;
+			}
+			
+			.icons_stnd_size{
+				width:20px;
+				height:20px;
+			}
+			
+			#left_nav ul{
+				list-style:none;
+				margin:0;
+				padding:0;
+			}
+			
+			#left_nav ul li{
+				border-top:1px solid #3e4555;
+				border-bottom: 1px solid #242a37;
+				position:relative;
+			}
+			
+			#left_nav ul li.separate_item{
+				border-top: 1px solid #cccccc;
+			}
+			
+			#height_fixer{
+				background:#ebebeb;
+				position:relative;
+			}
+			
+			#left_nav ul li a{
+				padding:10px;
+				text-decoration:none;
+				color:#c4ccda;
+				text-shadow: 1px 1px #000;
+			}
+			
+			#left_nav ul li a:hover{
+				background:#434b5a;
+			}
+			
+			
+			.left_nav_padding{
+				padding:5px;
+			}
+			
+			.left_nav_search_input{
+				width:245px;
+				
+				padding:6px 7px;
+				font-size:medium;
+				-webkit-border-radius: 16px;
+				border-radius: 16px;
+				border: 1px solid #3e4555;
+				color:#c4ccda;
+				
+				-webkit-box-shadow: inset 0 1px 3px #495160;
+				-moz-box-shadow: inset 0 1px 3px #495160;
+				box-shadow: inset 0 1px 3px #495160;
+				
+				background:-webkit-gradient(linear,left top,left bottom,from(#434b5a),to(#495160));
+				background: -moz-linear-gradient(top,#434b5a,#495160);
+				background: -o-linear-gradient(top,#434b5a,#495160);
+			}
+			
+			.left_nav_search_input:focus{
+				outline:none;
+			}
+			
+			.avatar_link{
+				height:40px;
+				line-height:40px;
+				padding-left:60px !important;
+				position:relative;
+				
+			}
+			
+			.user_avatar{
+				position:absolute;
+				left:10px;
+				top:10px;
+			}
+			
+			.left_nav_stat_item{
+				background:-webkit-gradient(linear,left top,left bottom,from(#424a5a),to(#242b39));
+				color:#c4ccda;
+				text-shadow: 1px 1px #000;
+				position:relative;
+			}
+			
+			body.show_left_menu #left_nav{
+				position:absolute;
+				left:0;
+			}
+			
+			
+			body.show_left_menu #main_content_block{
+				position:relative;
+				width:100%;
+				left:272px;
+				top:0;
+			}
+			
+			#wrap_all{
+				/*width:auto;
+				max-width:100%;*/
+				position:relative;
+			}
+			
+			body.show_left_menu #wrap_all{
+				overflow:hidden;
+			}
+			
+			#left_nav ul li a#close_left_nav{
+				display:block;;
+				position:absolute;
+				right:0px;
+				bottom:0;
+				top:0;
+				width:44px;
+				border-left: 1px solid #3e4555;
+				cursor:pointer;
+				z-index:1000;
+				padding:0 !important;
+				background: transparent url('http://spaces.ru/uxdepot_images/arrow_next.png') center no-repeat;
+			}
+			
+			#left_nav ul li a#close_left_nav:hover{
+				background: #434b5a url('http://spaces.ru/uxdepot_images/arrow_next.png') center no-repeat;
+			}
+			
+			
+			.new_bg{
+				font-size:0;
+			}
+			
+			#main_logo_link{
+				margin-right:45px;
+			}
+			
+			.logo_image{
+				margin-right:6px;
+			}
+			
+			.icon_block_wrap {
+				margin: 0 20px 0 10px;
+			}
+			
+			.logo_image {
+				margin: 0 15px 0 5px;
+			}
+			
+			.left_nav_search_input_ico{
+				display:none;
+			}
+			
+			
+			#left_nav ul li.separate_item{
+				border-top: 1px solid #636772;
+			}
+			
+			@media all and (max-width: 481px){
+				#height_fixer{
+					display:none;
+				}
+			}
+
+			
+			@media all and (min-width: 481px){
+				#left_nav {
+					position: absolute;
+					bottom:0;
+					left: 0;
+					top:0;
+				}
+			
+				#main_content_block{
+					margin-left: 60px;
+					width: auto;
+				}
+				
+				.content_wrap{
+					position: relative;
+					z-index: 1000;
+				}
+				
+				body.show_left_menu #main_content_block{
+					margin-left:0;
+					position:relative;
+				}
+			
+				
+				
+				.left_nav_search_input_ico, body.show_left_menu .left_nav_search_input{
+					display:inline;
+				}
+				
+				.left_nav_search_input, body.show_left_menu .left_nav_search_input_ico{
+					display:none;
+				}
+				
+				
+				
+				/*#wrap_all{
+					width:auto;
+					max-width:100%;
+				}*/
+				
+				.left_nav_padding{
+					padding:10px 5px;
+				}
+				
+				body.show_left_menu .left_nav_padding{
+					padding:5px;
+				}
+			
+			}
+			
+			
+			
+			
+			
+			
+			
+			
+			/* >900px*/
+			@media all and (min-width: 900px) {
+				#wrap_all{
+					max-width:900px;
+					margin:0 auto;
+					width: auto;
+					background: url(images/border_bg.png) 273px 0 repeat-y;
+				}
+				
+				#navi_footer{
+					border-left:0;
+					border-right:0;
+				}
+				
+				#left_nav {
+					position: absolute;
+					bottom:auto;
+					left: 0;
+					top:0;
+					bottom:0;
+					background:none;
+				}
+				
+				#left_nav ul li {
+					border-top:1px solid #fcfcfc;
+					border-bottom: 1px solid #e3e3e3;
+				}
+				
+				#left_nav ul li.separate_item{
+					border-top: 1px solid #cccccc;
+				}
+				
+				#left_nav ul li a{
+					color: #666;
+					text-shadow: none;
+				}
+				
+				#left_nav ul li a:hover{
+					color:#000;
+					background:#fff;
+				}
+				
+				.left_nav_stat_item{
+					background:none;
+				}
+				
+				#main_logo_link:hover{
+					background:#52668e !important;
+				}
+				
+				#left_nav ul li.new_bg{
+					border-top:1px solid #6177a3;
+					border-bottom:1px solid #52668e;
+					border-right: 1px solid #6177a3;
+					background: -webkit-gradient(linear,left top,left bottom,from(#7c9ad6),to(#52668e));
+					background: -moz-linear-gradient(top,#7c9ad6,#52668e);
+					position: relative;
+					z-index: 11;
+					margin-left:-1px;
+				}
+				
+				.left_nav_search_input{
+					background: #f2f2f2;
+					color:#000;
+					border:1px solid #b3b3b3;
+					
+					-webkit-box-shadow: none;
+					-moz-box-shadow: none;
+					box-shadow: none;
+				}
+				
+				.left_nav_search_input:hover{
+					background: #f7f7f7;
+				}
+				
+				.left_nav_search_input:focus{
+					background: #ffffff;
+				}
+				
+				#wrap_all{
+					box-shadow: 0 0 9px 1px rgba(71,79,87,0.35);
+					border-right:1px solid #ccc;
+					border-left:1px solid #ccc;
+				}
+				
+				body.show_left_menu #main_content_block, #main_content_block{
+					margin-left: 271px;
+					padding-left: 0;
+					border-left: 1px solid #ccc;
+					position:relative;
+					left:0;
+					width:auto;
+				}
+				
+				body.show_left_menu #left_nav{
+					position:absolute;
+				}
+				
+				body.show_left_menu .logo_image{
+					margin:0 15px 0 5px;
+				}
+				
+				#left_nav ul li a#close_left_nav{
+					display:none;
+				}
+				
+				#main_logo_link{
+					margin-right:0;
+				}
+				
+				body.show_left_menu #wrap_all, body.show_left_menu #left_nav{
+					overflow:auto;
+					height:auto !important;
+					min-height:auto !important;
+				}
+				
+				
+				.left_nav_search_input{
+					display:inline;
+				}
+				
+				.left_nav_search_input_ico{
+					display:none;
+				}
+				
+				.left_nav_padding{
+					padding:5px;
+				}
+				
+				#home_link{
+					display:none;
+				}
+				
+				
+				#left_nav{
+					position:relative;
+					float:left;
+				}
+			
+			}
+			
+			
+			
+			
+			
+			#main_content_block, #wrap_all{
+				overflow:hidden;
+			}
+			
+			
+		
+			
+			
+			
+			
+			
+			
+		</style>
+
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+
+</head>
+<body>
+<div id="wrap_all">	
+	<div id="left_nav" class="">
+		<ul>
+			<li class="new_bg">
+				<a href="#" class="t-block_item" id="main_logo_link"><img src="images/logo_image.png" alt="" class="logo_image" /><img src="images/logo_words.png" alt="" /></a>
+				<a href="4567" id="close_left_nav"></a>
+			</li>
+		
+			<li class="left_nav_padding left_nav_stat_item overfl_hid">
+				<img src="images/search.gif" alt="" class="middle icon_block_wrap  left_nav_search_input_ico icons_stnd_size" style="margin: 0 0 0 14px">
+				<input type="text" placeholder="Поиск" class="left_nav_search_input medium"/>
+			</li>
+			<li>
+				<a href="http://spaces.ru/mysite/?link_id=187121&amp;name=serzilo" class="t-block_item avatar_link">
+					<img class="user_avatar" src="http://ts01.spaces.ru//tpic/e02f5b805f6407eaa9fa1fb3cd886933/45495655.p.41.40.0.jpg" alt="" />
+					Serzilo
+				</a>
+			</li>
+			
+		
+			
+			<li class="separate_item">
+				<a href="34" class="t-block_item">
+					<img src="http://spaces.ru/uxdepot_images/SharedZone.gif" alt="" class="middle icon_block_wrap icons_stnd_size"> <span class="middle">Зона обмена</span></a>
+			</li>
+			<li>
+				<a href="34" class="t-block_item"><img src="http://spaces.ru/uxdepot_images/soo.gif" alt="" class="middle icon_block_wrap icons_stnd_size"> <span class="middle">Сообщества</span></a>
+			</li>
+			
+			
+			
+			<li>
+				<a href="34" class="t-block_item"><img src="http://spaces.ru/uxdepot_images/Forum.gif" alt="" class="middle icon_block_wrap icons_stnd_size"> <span class="middle">Форум</span></a>
+			</li>
+			<li>
+				<a href="34" class="t-block_item"><img src="http://spaces.ru/uxdepot_images/chat.gif" alt="" class="middle icon_block_wrap icons_stnd_size"> <span class="middle">Чат</span></a>
+			</li>
+			<li>
+				<a href="34" class="t-block_item"><img src="http://spaces.ru/uxdepot_images/dating.gif" alt="" class="middle icon_block_wrap icons_stnd_size"> <span class="middle">Знакомства</span></a>
+			</li>
+			<li>
+				<a href="34" class="t-block_item"><img src="http://spaces.ru/uxdepot_images/People.gif" alt="" class="middle icon_block_wrap icons_stnd_size"> <span class="middle">Обитатели</span></a>
+			</li>
+			<li>
+				<a href="34" class="t-block_item"><img src="http://spaces.ru/uxdepot_images/diary.gif" alt="" class="middle icon_block_wrap icons_stnd_size"> <span class="middle">Дневники</span></a>
+			</li>
+			<li>
+				<a href="34" class="t-block_item"><img src="http://spaces.ru/uxdepot_images/ads_icon.gif" alt="" class="middle icon_block_wrap icons_stnd_size"> <span class="middle">Объявления</span></a>
+			</li>
+			
+			<li>
+				<a href="34" class="t-block_item"><img src="http://spaces.ru/uxdepot_images/app_thumb_clanwars.gif" alt="" class="middle icon_block_wrap icons_stnd_size"> <span class="middle">Война кланов</span></a>
+			</li>
+			<li>
+				<a href="34" class="t-block_item"><img src="http://spaces.ru/uxdepot_images/app_thumb_barbars.gif" alt="" class="middle icon_block_wrap icons_stnd_size"> <span class="middle">Варвары</span></a>
+			</li>
+			<li>
+				<a href="34" class="t-block_item"><img src="http://spaces.ru/uxdepot_images/app_thumb_mir_tenei.gif" alt="" class="middle icon_block_wrap icons_stnd_size"> <span class="middle">Мир теней</span></a>
+			</li>
+			<li>
+				<a href="34" class="t-block_item"><img src="http://spaces.ru/uxdepot_images/app_thumb_tiwar.gif" alt="" class="middle icon_block_wrap icons_stnd_size"> <span class="middle">Битва титанов</span></a>
+			</li>
+
+			
+			<li>
+				<a href="34" class="t-block_item"><img src="images/services.png" alt="" class="middle icon_block_wrap icons_stnd_size"> <span class="middle">Все сервисы</span></a>
+			</li>
+			<li>
+				<a href="34" class="t-block_item"><img src="images/menu_settings.png" alt="" class="middle icon_block_wrap icons_stnd_size"> <span class="middle">Настроить меню</span></a>
+			</li>
+			<li>
+				<a href="34" class="t-block_item"><img src="http://spaces.ru/uxdepot_images/add.gif" alt="" class="middle icon_block_wrap icons_stnd_size"> <span class="middle">Дополнительные услуги</span></a>
+			</li>
+			<li>
+				<a href="34" class="t-block_item"><img src="http://spaces.ru/uxdepot_images/about.gif" alt="" class="middle icon_block_wrap icons_stnd_size"> <span class="middle">Помощь</span></a>
+			</li>
+			<li>
+				<a href="34" class="t-block_item"><img src="http://spaces.ru/uxdepot_images/settings.gif" alt="" class="middle icon_block_wrap icons_stnd_size"> <span class="middle">Настройки</span></a>
+			</li>
+			<li>
+				<a href="34" class="t-block_item"><img src="images/off.png" alt="" class="middle icon_block_wrap icons_stnd_size"> <span class="middle">Выход</span></a>
+			</li>
+		</ul>
+	
+	
+	</div><!-- .left_nav -->
+
+
+
+
+
+
+
+
+
+
+
+
+	<div id="main_content_block">
+	<div class="content_wrap">
+		
+
+
+	
+		<div id="navi">
+			<div class="menu_wrap">
+		
+	
+			<table style="width:100%" cellspacing="0" cellpadding="0"><tr>
+				<td style="vertical-align:top;width:19%;" id="home_link">
+					<a id="menu_toggle" class="top_menu_link user_color_link" href="http://spaces.ru/startpage/?link_id=930561&amp;sid=6627131399478266" title="Старт">
+					
+						<img class="icon" src="http://spaces.ru/uxdepot_images/qlt_homen_b.png" alt="Старт"/>
+					
+					</a>
+				</td>
+	
+				<td style="vertical-align:top;width:20%;">
+					<a class="top_menu_link user_color_link" href="http://spaces.ru/mail2/?link_id=930561&amp;sid=6627131399478266" title="Почта">
+					
+						<img class="icon" src="http://spaces.ru/uxdepot_images/qlt_mailn_b.png" alt="Почта"/>
+					
+					
+					</a>
+				</td>
+	
+				<td style="vertical-align:top;width:19%;">
+					<a class="top_menu_link user_color_link" href="http://spaces.ru/journal/?filter=4&amp;jsort=2&amp;link_id=930561&amp;sid=6627131399478266" title="Журнал">
+					
+						<img class="icon" src="http://spaces.ru/uxdepot_images/qlt_journaln_b.png" alt="Жур"/>
+					
+					
+					</a>
+				</td>
+	
+				<td style="vertical-align:top;width:21%;">
+					<a class="top_menu_link user_color_link" href="http://spaces.ru/lenta/?link_id=930561&amp;sid=6627131399478266" title="Лента">
+					
+						<img class="icon" src="http://spaces.ru/uxdepot_images/qlt_lenta2n_b.png" alt="Лента"/>
+					
+					
+					</a>
+				</td>
+	
+				<td style="vertical-align:top;width:19%;border-right:none !important;">
+					<a class="top_menu_link user_color_link" href="http://spaces.ru/search/?link_id=930561&amp;sid=6627131399478266" title="Поиск">
+					
+						<img class="icon" src="http://spaces.ru/uxdepot_images/qlt_searchn_b.png" alt="Поиск"/>
+					
+					</a>
+				</td>
+	
+			</tr></table>
+	
+		
+		
+			</div>
+		</div>
+		
+		
+			<div class="moders_header_block overfl_hid">
+				
+					<span class="right">15:45</span>
+				
+				
+				
+				
+					<div>
+					<a href="#" class="black">Файлы</a> <span class="red_item">(0/</span><a href="http://spaces.ru/complaints/?mode=1&amp;sid=6627131399478266&amp;sort=0"><span class="red_item">223</span></a><span class="red_item">)</span>
+					</div>
+				
+				
+	
+				
+				
+				
+				
+				
+			</div>
+		
+		
+	
+
+
+
+
+
+
+
+
+			
+	<div class="location_bar " id="header_path">
+		<a href="#">serzilo</a> / <a href="http://spaces.ru/lenta/?r=lenta/read&amp;sid=6627131399478266">Лента</a>
+	
+		
+			
+		
+	</div>
+
+
+
+		
+
+		<div class="main">
+			
+				
+			
+			<div>
+
+    
+	<div class="wrap_busi_switcher">
+    
+
+    
+	
+    
+
+    <div class="busi_switcher">
+	<table width="100%">
+	    <tr>
+		
+		    
+			<td><span class="active_item" onclick="$('#togglerForm').toggle();">Все</span></td>
+		    
+		
+		    
+			<td><a href="http://spaces.ru/lenta/?garb=0&amp;link_id=360727&amp;list=1&amp;sid=6627131399478266">Записи</a></td>
+		    
+		
+		    
+			<td><a href="http://spaces.ru/lenta/?garb=0&amp;link_id=360727&amp;list=2&amp;sid=6627131399478266">Файлы</a></td>
+		    
+		
+	    </tr>
+	</table>
+    </div>
+    
+    </div>
+
+
+
+    <form method="post" action="http://spaces.ru/lenta/?sid=6627131399478266" id="togglerForm">
+	
+	    
+		<div class="date_block text_right"><b>Сегодня, <small>15 Мая</small></b></div>
+	    
+
+	    <div class="stnd_padd " style="padding-bottom:0px;">
+		<div class="list_item stnd_padd overfl_hid lenta_item round_corners grey">
+		    
+			
+		    
+			    
+				<a class="right" href="http://spaces.ru/lenta/?r=lenta/events_move&amp;CK=696841238414918&amp;event_id=1351&amp;garb=0&amp;link_id=930561&amp;list=0&amp;p=1&amp;sid=6627131399478266"><img class="icon" src="http://spaces.ru/uxdepot_images/cross_big.png" alt="Удалить запись" title="Удалить запись" /></a>
+			    
+		    
+
+		    
+			
+		    <div class="overfl_hid">
+			
+			   
+			       <input type="checkbox" name="itEvent" value="1351" style="display:none;" />
+			   
+			
+
+			
+			    <a href="http://spaces.ru/lenta/?r=lenta/read&amp;author=MALLBORRO&amp;link_id=930561&amp;list=0&amp;sid=6627131399478266"><b>MALLBORRO</b></a><br />
+			
+
+			<span style="">создал запись</span>
+
+			<span class="">
+			    
+			    <a class="strong_link" href="http://spaces.ru/diary/?r=diary/read&amp;id=2033229827&amp;link_id=930561&amp;sid=6627131399478266&amp;from=mylenta&amp;visit=1&amp;rec_id=1351">ПРОДОЛЖЕНИЕ ТОЙ ИСТОРИИ</a>
+
+			    
+			</span>
+		    </div>
+
+		    <div class="pad_t_a">
+			
+			    
+			       
+	<div  class="list_item">
+		
+		<div>
+			
+				
+					<div style="padding-bottom: 5px"></div>
+	
+		<div class="AttachRender">
+			
+	<a href="http://MALLBORRO.spaces.ru/pictures/?LI=2033229827&amp;LII=7222141&amp;LT=10&amp;SN=1&amp;link_id=930561&amp;read=63584384&amp;sid=6627131399478266"><img src="http://ts01.spaces.ru//tpic/9b01d23ba01533f74fda45d5ebfbfb8c/63584384.p.128.128.0.jpg" alt="400-1.jpg"/></a>
+
+
+
+
+
+	<div class="preview_block pad_t_a">
+		
+	</div>
+
+
+<div class="pad_t_a lh_160"></div>
+			
+		</div>
+	
+<div style="clear: both"></div>
+
+				
+				
+				Участника фотосессии с<br/>резиновой куклой у<br/>мемориала героям войны на<br/>Ставрополье выгнали из<br/>университета.<br/>Решение об отчислении<br/>студента 5-го курса
+				...&nbsp;
+				
+					<a href="http://spaces.ru/diary/?r=diary/read&amp;id=2033229827&amp;link_id=930561&amp;sid=6627131399478266&amp;from=mylenta&amp;visit=1&amp;rec_id=1351">Подробнее...</a>  <span style="color:gray"></span>
+				
+					<div class="service_links_block_top"><a href="http://spaces.ru/diary/?r=diary/read&amp;id=2033229827&amp;link_id=930561&amp;sid=6627131399478266&amp;from=mylenta&amp;visit=1&amp;rec_id=1351#comments" class="arrow_link">
+						<img src="http://spaces.ru/uxdepot_images/comm_num.gif" class="middle" alt="" />
+					<span class="middle">Обсудить</span> </a>
+				
+				</div>
+			
+
+			
+				
+			
+		</div>
+		
+	</div>
+
+
+			    
+			
+		    </div>
+
+		    
+		</div>
+	    </div>
+	
+
+
+	    <div class="stnd_padd " style="padding-bottom:0px;">
+		<div class="list_item stnd_padd overfl_hid lenta_item round_corners grey">
+		    
+			
+		    
+			    
+				<a class="right" href="http://spaces.ru/lenta/?r=lenta/events_move&amp;CK=696841238414918&amp;event_id=1349&amp;garb=0&amp;link_id=930561&amp;list=0&amp;p=1&amp;sid=6627131399478266"><img class="icon" src="http://spaces.ru/uxdepot_images/cross_big.png" alt="Удалить запись" title="Удалить запись" /></a>
+			    
+		    
+
+		    
+			
+		    <div class="overfl_hid">
+			
+			   
+			       <input type="checkbox" name="itEvent" value="1349" style="display:none;" />
+			   
+			
+
+			
+			    <a href="http://spaces.ru/lenta/?r=lenta/read&amp;author=Wolf777xx77&amp;link_id=930561&amp;list=0&amp;sid=6627131399478266"><b>Wolf777xx77</b></a><br />
+			
+
+			<span style="">прокомментировал файл</span>
+
+			<span class="">
+			    <b>
+			    
+	<a href="http://Wolf777xx77.spaces.ru/files/?from=mylenta&amp;link_id=930561&amp;read=30829768&amp;rec_id=1349&amp;sid=6627131399478266&amp;visit=1" class="arrow_link ">
+
+
+
+
+
+	<span class="middle">Shym_-_En_apesanteur.mp4</span></a>
+
+
+
+
+
+
+			    </b>
+			</span>
+		    </div>
+
+		    <div class="pad_t_a">
+			
+			    
+				<div>
+				    <b>·</b>
+				    <a href="http://Wolf777xx77.spaces.ru/files/?link_id=930561&amp;read=30829768&amp;scp=34832755&amp;sid=6627131399478266" class="strong_link"><img src="http://spaces.ru/uxdepot_images//02_smile2.gif" alt=""/></a>
+				</div>
+			    
+			
+		    </div>
+
+		    
+		</div>
+	    </div>
+	
+	    
+
+	    <div class="stnd_padd " style="padding-bottom:0px;">
+		<div class="list_item stnd_padd overfl_hid lenta_item round_corners grey">
+		    
+			
+		    
+			    
+				<a class="right" href="http://spaces.ru/lenta/?r=lenta/events_move&amp;CK=696841238414918&amp;event_id=1348&amp;garb=0&amp;link_id=930561&amp;list=0&amp;p=1&amp;sid=6627131399478266"><img class="icon" src="http://spaces.ru/uxdepot_images/cross_big.png" alt="Удалить запись" title="Удалить запись" /></a>
+			    
+		    
+
+		    
+			
+		    <div class="overfl_hid">
+			
+			   
+			       <input type="checkbox" name="itEvent" value="1348" style="display:none;" />
+			   
+			
+
+			
+			    <a href="http://spaces.ru/lenta/?r=lenta/read&amp;author=Amaka_spaces&amp;link_id=930561&amp;list=0&amp;sid=6627131399478266"><b>Amaka_spaces</b></a><br />
+			
+
+			<span style="">создал тему</span>
+
+			<span class="">
+			    
+			    
+<a class="" href="http://spaces.ru/forums/?r=13735787&amp;link_id=930561&amp;sid=6627131399478266&amp;from=mylenta&amp;visit=1&amp;rec_id=1348">wwmgdt</a>
+
+
+			    
+			</span>
+		    </div>
+
+		    <div class="pad_t_a">
+			
+			    
+			       
+<a class="strong_link" href="http://spaces.ru/forums/?r=13735787&amp;link_id=930561&amp;sid=6627131399478266&amp;from=mylenta&amp;visit=1&amp;rec_id=1348"></a>
+
+	<div>mpd}wdwd</div>
+	<div class="service_links_block_top">
+		<a href="http://spaces.ru/forums/?r=13735787&amp;link_id=930561&amp;sid=6627131399478266&amp;from=mylenta&amp;visit=1&amp;rec_id=1348#comments" class="arrow_link">
+			<img src="http://spaces.ru/uxdepot_images/comm_num.gif" class="middle" alt="" />
+			<span class="middle">Обсудить</span> <small class="middle">(17)</small></a>
+		</a>
+	</div>
+
+
+			    
+			
+		    </div>
+
+		    
+		</div>
+	    </div>
+	
+	    
+
+	    <div class="stnd_padd " style="padding-bottom:0px;">
+		<div class="list_item stnd_padd overfl_hid lenta_item round_corners grey">
+		    
+			
+		    
+			    
+				<a class="right" href="http://spaces.ru/lenta/?r=lenta/events_move&amp;CK=696841238414918&amp;event_id=1347&amp;garb=0&amp;link_id=930561&amp;list=0&amp;p=1&amp;sid=6627131399478266"><img class="icon" src="http://spaces.ru/uxdepot_images/cross_big.png" alt="Удалить запись" title="Удалить запись" /></a>
+			    
+		    
+
+		    
+			
+		    <div class="overfl_hid">
+			
+			   
+			       <input type="checkbox" name="itEvent" value="1347" style="display:none;" />
+			   
+			
+
+			
+			    <a href="http://spaces.ru/lenta/?r=lenta/read&amp;author=MALLBORRO&amp;link_id=930561&amp;list=0&amp;sid=6627131399478266"><b>MALLBORRO</b></a><br />
+			
+
+			<span style="">создал запись</span>
+
+			<span class="">
+			    
+			    <a class="strong_link" href="http://spaces.ru/diary/?r=diary/read&amp;id=2033229515&amp;link_id=930561&amp;sid=6627131399478266&amp;from=mylenta&amp;visit=1&amp;rec_id=1347">ЖЕСТКО</a>
+
+			    
+			</span>
+		    </div>
+
+		    <div class="pad_t_a">
+			
+			    
+			       
+	<div  class="list_item">
+		
+		<div>
+			
+				
+				
+				+18 Самосуд Египетский.<br/>Разъяренная толпа в<br/>египетской провинции Эль-<br/>Гарбия подвесила<br/>подозреваемых в краже<br/>моторикши вверх ногами и<br/>избивали их,
+				...&nbsp;
+				
+					<a href="http://spaces.ru/diary/?r=diary/read&amp;id=2033229515&amp;link_id=930561&amp;sid=6627131399478266&amp;from=mylenta&amp;visit=1&amp;rec_id=1347">Подробнее...</a>  <span style="color:gray"></span>
+				
+					<div class="service_links_block_top"><a href="http://spaces.ru/diary/?r=diary/read&amp;id=2033229515&amp;link_id=930561&amp;sid=6627131399478266&amp;from=mylenta&amp;visit=1&amp;rec_id=1347#comments" class="arrow_link">
+						<img src="http://spaces.ru/uxdepot_images/comm_num.gif" class="middle" alt="" />
+					<span class="middle">Обсудить</span> </a>
+				
+				</div>
+			
+
+			
+				
+			
+		</div>
+		
+	</div>
+
+
+			    
+			
+		    </div>
+
+		    
+		</div>
+	    </div>
+	
+	    
+
+	    <div class="stnd_padd " style="padding-bottom:0px;">
+		<div class="list_item stnd_padd overfl_hid lenta_item round_corners grey">
+		    
+			
+		    
+			    
+				<a class="right" href="http://spaces.ru/lenta/?r=lenta/events_move&amp;CK=696841238414918&amp;event_id=1346&amp;garb=0&amp;link_id=930561&amp;list=0&amp;p=1&amp;sid=6627131399478266"><img class="icon" src="http://spaces.ru/uxdepot_images/cross_big.png" alt="Удалить запись" title="Удалить запись" /></a>
+			    
+		    
+
+		    
+			
+		    <div class="overfl_hid">
+			
+			   
+			       <input type="checkbox" name="itEvent" value="1346" style="display:none;" />
+			   
+			
+
+			
+			    <a href="http://spaces.ru/lenta/?r=lenta/read&amp;author=Xend&amp;link_id=930561&amp;list=0&amp;sid=6627131399478266"><b>Xend</b></a><br />
+			
+
+			<span style="">добавил фото в</span>
+
+			<span class="">
+			    
+			    <a href="http://Xend.spaces.ru/pictures/?dir=5174974&amp;link_id=930561&amp;sid=6627131399478266&amp;from=mylenta&amp;visit=1&amp;rec_id=1346" class="arrow_link">
+
+
+<span >WWE Няшы</span></a>
+			    
+			</span>
+		    </div>
+
+		    <div class="pad_t_a">
+			
+			    
+			       
+	<a href="http://Xend.spaces.ru/pictures/?from=mylenta&amp;link_id=930561&amp;read=63582896&amp;rec_id=1346&amp;sid=6627131399478266&amp;visit=1"><img src="http://ts01.spaces.ru//tpic/7132967e4e8684fa6d3f370e4548c75c/63582896.p.80.80.0.jpg" alt="xzQ1O_NJ9ms.jpg"/></a>
+
+
+
+
+			    
+			
+		    </div>
+
+		    
+		</div>
+	    </div>
+	
+	    
+
+	    <div class="stnd_padd " style="padding-bottom:0px;">
+		<div class="list_item stnd_padd overfl_hid lenta_item round_corners grey">
+		    
+			
+		    
+			    
+				<a class="right" href="http://spaces.ru/lenta/?r=lenta/events_move&amp;CK=696841238414918&amp;event_id=1345&amp;garb=0&amp;link_id=930561&amp;list=0&amp;p=1&amp;sid=6627131399478266"><img class="icon" src="http://spaces.ru/uxdepot_images/cross_big.png" alt="Удалить запись" title="Удалить запись" /></a>
+			    
+		    
+
+		    
+			
+		    <div class="overfl_hid">
+			
+			   
+			       <input type="checkbox" name="itEvent" value="1345" style="display:none;" />
+			   
+			
+
+			
+			    <a href="http://spaces.ru/lenta/?r=lenta/read&amp;author=simon546&amp;link_id=930561&amp;list=0&amp;sid=6627131399478266"><b>simon546</b></a><br />
+			
+
+			<span style="">создал запись</span>
+
+			<span class="">
+			    
+			    <a class="strong_link" href="http://spaces.ru/diary/?r=diary/read&amp;id=2033228990&amp;link_id=930561&amp;sid=6627131399478266&amp;from=mylenta&amp;visit=1&amp;rec_id=1345">Я некрасивый, но то, что я
+делаю,</a>
+
+			    
+			</span>
+		    </div>
+
+		    <div class="pad_t_a">
+			
+			    
+			       
+	<div  class="list_item">
+		
+		<div>
+			
+				
+					<div style="padding-bottom: 5px"></div>
+	
+<div style="clear: both"></div>
+
+				
+				
+				Я некрасивый, но то, что я<br/>делаю, очаровывает
+				
+				
+					<div class="service_links_block_top"><a href="http://spaces.ru/diary/?r=diary/read&amp;id=2033228990&amp;link_id=930561&amp;sid=6627131399478266&amp;from=mylenta&amp;visit=1&amp;rec_id=1345#comments" class="arrow_link">
+						<img src="http://spaces.ru/uxdepot_images/comm_num.gif" class="middle" alt="" />
+					<span class="middle">Обсудить</span> </a>
+				
+				</div>
+			
+
+			
+				
+			
+		</div>
+		
+	</div>
+
+
+			    
+			
+		    </div>
+
+		    
+		</div>
+	    </div>
+	
+	    
+
+	    <div class="stnd_padd " style="padding-bottom:0px;">
+		<div class="list_item stnd_padd overfl_hid lenta_item round_corners grey">
+		    
+			
+		    
+			    
+				<a class="right" href="http://spaces.ru/lenta/?r=lenta/events_move&amp;CK=696841238414918&amp;event_id=1344&amp;garb=0&amp;link_id=930561&amp;list=0&amp;p=1&amp;sid=6627131399478266"><img class="icon" src="http://spaces.ru/uxdepot_images/cross_big.png" alt="Удалить запись" title="Удалить запись" /></a>
+			    
+		    
+
+		    
+			
+		    <div class="overfl_hid">
+			
+			   
+			       <input type="checkbox" name="itEvent" value="1344" style="display:none;" />
+			   
+			
+
+			
+			    <a href="http://spaces.ru/lenta/?r=lenta/read&amp;author=MALLBORRO&amp;link_id=930561&amp;list=0&amp;sid=6627131399478266"><b>MALLBORRO</b></a><br />
+			
+
+			<span style="color:gray;">создал запись</span>
+
+			<span class="grey_link">
+			    
+			    <a class="strong_link" href="http://spaces.ru/diary/?r=diary/read&amp;id=2033228579&amp;link_id=930561&amp;sid=6627131399478266&amp;from=mylenta&amp;visit=1&amp;rec_id=1344">ВОТ ДЕЛАТЬ НЕХ</a>
+
+			    
+			</span>
+		    </div>
+
+		    <div class="pad_t_a">
+			
+			    
+			       
+	<div  class="list_item">
+		
+		<div>
+			
+				
+					<div style="padding-bottom: 5px"></div>
+	
+<div style="clear: both"></div>
+
+				
+				
+				СКОЛЬКО СТОИТ<br/>СОДЕРЖАТЬ ДЕВУШКУ В<br/>МЕСЯЦ?<br/>По данным опроса 2009 - 2011<br/>средняя цифра по РФ<br/>составляла 50 тр - это значит,<br/>что для семьи из 2х человек
+				...&nbsp;
+				
+					<a href="http://spaces.ru/diary/?r=diary/read&amp;id=2033228579&amp;link_id=930561&amp;sid=6627131399478266&amp;from=mylenta&amp;visit=1&amp;rec_id=1344">Подробнее...</a>  <span style="color:gray"></span>
+				
+					<div class="service_links_block_top"><a href="http://spaces.ru/diary/?r=diary/read&amp;id=2033228579&amp;link_id=930561&amp;sid=6627131399478266&amp;from=mylenta&amp;visit=1&amp;rec_id=1344#comments" class="arrow_link">
+						<img src="http://spaces.ru/uxdepot_images/comm_num.gif" class="middle" alt="" />
+					<span class="middle">Обсудить</span> <small class="middle">(14)</small></a>
+				
+				</div>
+			
+
+			
+				
+			
+		</div>
+		
+	</div>
+
+
+			    
+			
+		    </div>
+
+		    
+		</div>
+	    </div>
+	
+	    
+
+	    <div class="stnd_padd " style="padding-bottom:0px;">
+		<div class="list_item stnd_padd overfl_hid lenta_item round_corners grey">
+		    
+			
+		    
+			    
+				<a class="right" href="http://spaces.ru/lenta/?r=lenta/events_move&amp;CK=696841238414918&amp;event_id=1343&amp;garb=0&amp;link_id=930561&amp;list=0&amp;p=1&amp;sid=6627131399478266"><img class="icon" src="http://spaces.ru/uxdepot_images/cross_big.png" alt="Удалить запись" title="Удалить запись" /></a>
+			    
+		    
+
+		    
+			
+		    <div class="overfl_hid">
+			
+			   
+			       <input type="checkbox" name="itEvent" value="1343" style="display:none;" />
+			   
+			
+
+			
+			    <a href="http://spaces.ru/lenta/?r=lenta/read&amp;author=Irisha34394&amp;link_id=930561&amp;list=0&amp;sid=6627131399478266"><b>Irisha34394</b></a><br />
+			
+
+			<span style="">создала запись</span>
+
+			<span class="">
+			    
+			    <a class="strong_link" href="http://spaces.ru/diary/?r=diary/read&amp;id=2033228495&amp;link_id=930561&amp;sid=6627131399478266&amp;from=mylenta&amp;visit=1&amp;rec_id=1343">админа на романтику пробило :ржу</a>
+
+			    
+			</span>
+		    </div>
+
+		    <div class="pad_t_a">
+			
+			    
+			       
+	<div  class="list_item">
+		
+		<div>
+			
+				
+					<div style="padding-bottom: 5px"></div>
+	
+		<div class="AttachRender">
+			
+	<a href="http://Irisha34394.spaces.ru/pictures/?LI=2033228495&amp;LII=7221789&amp;LT=10&amp;SN=1&amp;link_id=930561&amp;read=63581741&amp;sid=6627131399478266"><img src="http://ts01.spaces.ru//tpic/b8f84f554b18e27bdbce5b458c084a65/63581741.p.128.128.0.jpg" alt="screenshot_2013-05-15_1640.png"/></a>
+
+
+
+
+
+	<div class="preview_block pad_t_a">
+		
+	</div>
+
+
+<div class="pad_t_a lh_160"></div>
+			
+		</div>
+	
+<div style="clear: both"></div>
+
+				
+				
+				админа на романтику пробило <img src="http://spaces.ru/uxdepot_images//rzhu.gif" alt=""/>
+				
+				
+					<div class="service_links_block_top"><a href="http://spaces.ru/diary/?r=diary/read&amp;id=2033228495&amp;link_id=930561&amp;sid=6627131399478266&amp;from=mylenta&amp;visit=1&amp;rec_id=1343#comments" class="arrow_link">
+						<img src="http://spaces.ru/uxdepot_images/comm_num.gif" class="middle" alt="" />
+					<span class="middle">Обсудить</span> <small class="middle">(10)</small></a>
+				
+				</div>
+			
+
+			
+				
+			
+		</div>
+		
+	</div>
+
+
+			    
+			
+		    </div>
+
+		    
+		</div>
+	    </div>
+	
+	    
+
+	    <div class="stnd_padd light_border_bottom" >
+		<div class="list_item stnd_padd overfl_hid lenta_item round_corners grey">
+		    
+			
+		    
+			    
+				<a class="right" href="http://spaces.ru/lenta/?r=lenta/events_move&amp;CK=696841238414918&amp;event_id=1342&amp;garb=0&amp;link_id=930561&amp;list=0&amp;p=1&amp;sid=6627131399478266"><img class="icon" src="http://spaces.ru/uxdepot_images/cross_big.png" alt="Удалить запись" title="Удалить запись" /></a>
+			    
+		    
+
+		    
+			
+		    <div class="overfl_hid">
+			
+			   
+			       <input type="checkbox" name="itEvent" value="1342" style="display:none;" />
+			   
+			
+
+			
+			    <a href="http://spaces.ru/lenta/?r=lenta/read&amp;author=Wolf777xx77&amp;link_id=930561&amp;list=0&amp;sid=6627131399478266"><b>Wolf777xx77</b></a><br />
+			
+
+			<span style="">добавил фото в</span>
+
+			<span class="">
+			    
+			    <a href="http://Wolf777xx77.spaces.ru/pictures/?dir=4848016&amp;link_id=930561&amp;sid=6627131399478266&amp;from=mylenta&amp;visit=1&amp;rec_id=1342" class="arrow_link">
+
+
+<span >Информ 26-3</span></a>
+			    
+			</span>
+		    </div>
+
+		    <div class="pad_t_a">
+			
+			    
+			       
+	<a href="http://Wolf777xx77.spaces.ru/pictures/?from=mylenta&amp;link_id=930561&amp;read=63581749&amp;rec_id=1342&amp;sid=6627131399478266&amp;visit=1"><img src="http://ts01.spaces.ru//tpic/02a40d48dad6689778e4c0c650dbd06d/63581749.p.80.80.0.jpg" alt="one.jpg"/></a>
+
+
+
+
+			    
+			
+		    </div>
+
+		    
+		</div>
+	    </div>
+	
+
+	
+	    <input type="hidden" name="r" value="lenta/events_move" />
+	
+	    <input type="hidden" name="sid" value="6627131399478266" />
+	
+	    <input type="hidden" name="garb" value="0" />
+	
+	    <input type="hidden" name="p" value="1" />
+	
+	    <input type="hidden" name="list" value="0" />
+	
+	    <input type="hidden" name="CK" value="696841238414918" />
+	
+	    <input type="hidden" name="link_id" value="930561" />
+	
+
+	<div class="stnd_padd light_border_bottom light_border_top" style="display:none;">
+	    <input type="submit" class="edit_button" value="Удалить отмеченные записи" />
+	</div>
+    </form>
+
+
+</div>
+
+<div class="pagination ">
+
+
+	<div class="pagination_ar">
+	
+					
+						
+						
+						
+					
+						
+							<a href="http://spaces.ru/lenta/?r=lenta/read&amp;link_id=360727&amp;list=0&amp;sid=6627131399478266&amp;p=2" class="next"><span>
+							
+								Следующая</span> &rarr;</a>
+							
+							
+						
+					
+			
+	
+	</div><!-- .pagination_ar -->
+
+
+
+
+
+	<div class="page_links">
+	
+		
+			
+				<span class="current"><span>&nbsp;1&nbsp;</span></span><i></i>
+			
+			
+		
+	
+		
+			
+				<a href="http://spaces.ru/lenta/?r=lenta/read&amp;link_id=360727&amp;list=0&amp;sid=6627131399478266&amp;p=2"><span>&nbsp;2&nbsp;</span></a><i></i>
+			
+			
+		
+	
+		
+			
+				<a href="http://spaces.ru/lenta/?r=lenta/read&amp;link_id=360727&amp;list=0&amp;sid=6627131399478266&amp;p=3"><span>&nbsp;3&nbsp;</span></a><i></i>
+			
+			
+		
+	
+		
+			
+				<a href="http://spaces.ru/lenta/?r=lenta/read&amp;link_id=360727&amp;list=0&amp;sid=6627131399478266&amp;p=4"><span>&nbsp;4&nbsp;</span></a><i>..</i>
+			
+			
+		
+	
+		
+			
+				<a href="http://spaces.ru/lenta/?r=lenta/read&amp;link_id=360727&amp;list=0&amp;sid=6627131399478266&amp;p=130"><span>&nbsp;130&nbsp;</span></a><i></i>
+			
+			
+		
+	
+	
+	
+		<span class="search_page_block">
+			<form method="get" action="http://spaces.ru/lenta/?r=lenta/read&amp;link_id=360727&amp;list=0&amp;sid=6627131399478266&amp;">
+			
+				<span class="wrap_page_num_input">
+					<input name="p" size="3" style="-wap-input-format:'5N'" maxlength="5" value="" class="page_num_input" />
+				</span>
+			
+			
+				<input type="hidden" name="sid" value="6627131399478266" />
+			
+				<input type="hidden" name="link_id" value="360727" />
+			
+				<input type="hidden" name="r" value="lenta/read" />
+			
+				<input type="hidden" name="list" value="0" />
+			
+			<input type="submit" value="GO" class="go" />
+			
+			</form>
+		</span>
+	
+	</div><!-- .page_links -->
+
+
+</div><!-- .pagination -->
+
+
+<div class="bottom_link_block lh_160">
+    
+
+    <a class="arrow_link" href="http://spaces.ru/lenta/?r=lenta/authors&amp;link_id=930561&amp;sid=6627131399478266">
+      <img class="middle" src="http://spaces.ru/uxdepot_images//soo.gif" alt=""/>
+    <span class="middle">Список авторов</span></a><br />
+
+    
+	    <a class="arrow_link" href="http://spaces.ru/lenta/?r=lenta/read&amp;garb=1&amp;link_id=930561&amp;sid=6627131399478266">
+		<img class="middle" src="http://spaces.ru/uxdepot_images/trash.gif" alt=""/>
+	    <span class="middle">Корзина</span></a>
+    
+</div>
+
+
+	
+		<div class="overfl_hid t-bg2 light_border_bottom">
+			
+				
+					<a class="t-block_item t-light_link t-link_no_underline overfl_hid t-padd_left  " href="http://spaces.ru/lenta/?r=lenta/read&amp;sid=6627131399478266"><span class="t-block_item stnd_padd t-bg_arrow_prev"><span class="t-padd_left">Назад</span></span></a>
+				
+			
+		</div>
+		<!-- тач -->
+	
+
+
+
+		</div>
+		
+	<div id="reklama" onclick="javascript:toggle('show_debug'); return false;"><div>serge sendbox</div><div id="show_debug" style="display:none;">Global data object:
+{
+  "config" => 1,
+  "config.icons" => 1,
+  "config.icons.baseurl" => "http://spaces.ru/uxdepot_images/",
+  "config.thumbs" => 1,
+  "config.thumbs.baseurl" => "http://ts01.spaces.ru/",
+  "current_user" => 1,
+  "current_user.name" => "serzilo",
+  "device" => 1,
+  "device.android" => "0",
+  "device.browser" => 1,
+  "device.browser.name" => "safari",
+  "device.browser.version" => "4",
+  "device.ios" => "1",
+  "device.screen" => 1,
+  "device.screen.height" => "1024",
+  "device.screen.width" => "768",
+  "device.type" => "mobile",
+  "device.windowsphone" => "0",
+  "get_gift_link" => ,
+  "includes" => 1,
+  "includes.BASE_URL" => "/js",
+  "includes.REVISION" => 1886,
+  "is_mobile" => "1",
+  "mobiads_link" => ,
+  "reklama_disabled" => 0,
+  "rotation_links" => [
+                        0 : "<script type=\"text/javascript\" async=\"\" src=\"http://spaces.ru/js/functions.js\"></script>\n<script type=\"text/javascript\">\nvar ads_array = [[\'Лучшие бесплатные игрушки\', \'http://spaces.ru/advertise/?sid=&amp;key=1366132799668247&amp;out=326\'],];\nvar ads_count = 2;\nwindow.onload = function() {\n\tvar m = document.createElement(\'script\');\n\tm.src = \'http://mobiads.ru/500.js\';\n\tm.type = \'text/javascript\';\n\tdocument.getElementById(\'mads\').appendChild(m);\n}\n</script>\n<div id=\"mads\"></div>"
+                      ],
+  "sid" => "6627131399478266",
+  "user_settings" => 1,
+  "user_settings.colors" => 1,
+  "user_settings.colors.background" => "#6780b2",
+  "user_settings.colors.background_end" => "#52668e",
+  "user_settings.colors.background_start" => "#7c9ad6",
+  "user_settings.colors.focus" => "#3d5b99",
+  "user_settings.colors.focus_background" => "#52668e",
+  "user_settings.colors.font_color" => "#859bc6",
+  "user_settings.colors.link" => "#ffffff",
+  "user_settings.colors.links_border_bottom" => "#6177a3",
+  "user_settings.colors.links_border_bottom_hover" => "#74819b",
+  "user_settings.colors.links_border_hover" => "#4f6184",
+  "user_settings.colors.links_border_left" => "#869ece",
+  "user_settings.colors.links_border_right" => "#6177a3",
+  "user_settings.colors.links_border_top" => "#6177a3",
+  "user_settings.colors.links_border_top_hover" => "#8399c4",
+  "user_settings.colors.many_newevent" => "#b3c2e0",
+  "user_settings.colors.navi_border" => "#758ab5",
+  "user_settings.colors.time" => "#334c7f",
+  "user_settings.show_icons" => 1
+}</div>
+		<div style="text-align:center">
+			
+				
+					
+<div id="mads"></div>
+					
+			
+			
+		</div>
+		<div class="reklama_image">
+			 
+				<img src="http://spaces.ru/uxdepot_images/reklama.gif" alt="" />
+			 
+		</div>
+		
+	</div>
+	
+	<div>
+		
+	</div>
+	
+	
+
+	
+	
+	
+	
+
+
+			
+	<div class="location_bar " id="footer_path">
+		<a href="http://spaces.ru/mysite/?name=serzilo&amp;sid=6627131399478266">serzilo</a> / <a href="http://spaces.ru/lenta/?r=lenta/read&amp;sid=6627131399478266">Лента</a>
+	
+		
+	</div>
+
+
+
+		<div id="navi_footer" class="stnd_padd" style="padding-top:9px; padding-bottom:9px;">
+	
+		<a href="http://spaces.ru/?online_help=1&amp;sid=6627131399478266&amp;link_id=930561" class="user_color_link">Помощь</a>
+		|
+	
+		<a href="http://spaces.ru/mysite/?name=serzilo&amp;sid=6627131399478266&amp;link_id=930561" class="user_color_link">Я</a>
+		|
+	
+		<a href="http://spaces.ru/forums/?sid=6627131399478266&amp;link_id=930561" class="user_color_link">Фор</a>
+		|
+	
+		<a href="http://spaces.ru/favorites/?name=serzilo&amp;sid=6627131399478266&amp;link_id=930561" class="user_color_link">Закл</a>
+		|
+	
+		<a href="http://spaces.ru/diaries/?sid=6627131399478266&amp;link_id=930561" class="user_color_link">Дн-ки</a>
+		|
+	
+		<a href="http://spaces.ru/chat/?sid=6627131399478266&amp;link_id=930561" class="user_color_link">Чат</a>
+		|
+	
+		<a href="http://spaces.ru/mysite/?mycomm=1&amp;name=serzilo&amp;sid=6627131399478266&amp;link_id=930561" class="user_color_link">Соо</a>
+		|
+	
+		<a href="http://spaces.ru/shared_zone/?sid=6627131399478266&amp;link_id=930561" class="user_color_link">ЗО</a>
+		|
+	
+		<a href="http://spaces.ru/mail2/?sid=6627131399478266&amp;link_id=930561" class="user_color_link">Почта</a>
+		|
+	
+		<a href="http://spaces.ru/diary/?sid=6627131399478266&amp;name=serzilo&amp;link_id=930561" class="user_color_link">Днев</a>
+		|
+	
+		<a href="http://spaces.ru/mp3top/?sid=6627131399478266&amp;link_id=930561" class="user_color_link">mp3</a>
+		
+	
+
+	| <a href="http://spaces.ru/settings/?r=settings/navi&amp;link_id=930561&amp;sid=6627131399478266" class="user_color_link">+</a>
+	
+		| <a href="http://spaces.ru/mysite/?CK=696841238414918&amp;link_id=930561&amp;ms=1&amp;sid=6627131399478266">
+			<span style="color:#FF0000">
+				Модер 
+				
+					<img src="http://spaces.ru/uxdepot_images/com_open.gif"/>
+				
+			</span>
+		</a>
+	
+</div>
+
+		
+
+		
+<div class="row3" style="padding:0 5px;background:#ebebeb;">
+	
+		Вы в песочнице!
+		<a href="#" id="warninings_link" onclick="ShowWarnings(); return false;" style="float:right;"></a>
+	
+</div>
+
+
+
+
+		
+	<div style="text-align:center;font-size:small;background:#ebebeb;">
+		<a href="http://spaces.ru/?cur_link=1&amp;link_id=930561&amp;sid=6627131399478266">ссылка на стр.</a>
+		[<a href="http://spaces.ru/?buffer=2&amp;cur_link=1&amp;link_id=930561&amp;sid=6627131399478266">коп</a>]
+	</div>
+
+
+		
+	<div class="stnd_padd" style="background:#ebebeb;">
+		
+			<script type="text/javascript" src="http://spaces.ru/js/ga.js"></script>
+			<script type="text/javascript" src="http://mobtop.ru/c/16.js"></script>
+			<noscript><a href="http://mobtop.ru/in/16"><img src="http://mobtop.ru/16.gif" alt="MobTop - top mobile rating"/></a></noscript>
+		
+		
+	</div>
+
+	
+
+
+	</div>
+	
+	<div id="height_fixer"></div><!-- #height_fixer -->
+	
+	</div><!-- .main_content_block -->
+	
+</div><!-- #wrap_all -->	
+	
+</body>
+</html>
